@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1794230748035,
+      "tag": "0000_university_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794230761744,
+      "tag": "0001_fix_register_loop",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794231419445,
+      "tag": "0002_fix_policy_recursion",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1794231550270,
+      "tag": "0003_fix_student_results_policy",
+      "breakpoints": true
+    }
+  ]
+}
