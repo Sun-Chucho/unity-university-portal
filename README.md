@@ -2,6 +2,13 @@
 
 A university management MVP built by **Churchil Ogolla**, Senior Software Engineer. It supports students, lecturers, department administrators and super administrators.
 
+## Submission links
+
+- [Live application](https://unity-university-portal.vercel.app)
+- [Source code](https://github.com/Sun-Chucho/unity-university-portal)
+- [71-second video walkthrough](https://github.com/Sun-Chucho/unity-university-portal/releases/download/v1.0.0/unity-portal-walkthrough.mp4)
+- [Database schema](drizzle/migrations/0000_university_core.sql)
+
 ## Demo access
 
 Open `/auth`. The sign-in page has quick-fill buttons. All demo users use `Demo@2026!`.
@@ -73,6 +80,8 @@ The connected demo database includes two faculties, three departments, three pro
 ## Vercel setup
 
 Import the repository as a TanStack Start project. Add `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY` and `SUPABASE_SERVICE_ROLE_KEY` as server environment variables. Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` for the browser. Never add the service role key with a `VITE_` prefix. Deploy using `npm run build`.
+
+The current public deployment has no `SUPABASE_SERVICE_ROLE_KEY`. Existing demo users can sign in and use their role dashboards. Creating or suspending accounts requires that server-only variable to be added in Vercel.
 
 ## Short demonstration route
 
